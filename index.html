@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="scorearea" id="topbar">
+      <div>
+        <p class="gamename">ROCK PAPER SCISSORS</p>
+      </div>
+      <div class="parentscoreboxes">
+        <div class="scoreboxes score">
+          <p class="scoretext">COMPUTER <br>SCORE</p>
+          <p class="scorecount" id="computerScore"></p>
+        </div>
+        <div class="scoreboxes score">
+          <p class="scoretext">YOUR <br> SCORE</p>
+          <p class="scorecount" id="userScore"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Choose Choice -->
+  <section>
+    <div class="gamecontainer">
+      <div class="choosechoice" id="choiceMaker">
+        <div class="choiceImg stone" onclick="nowPlay('rock')">
+          <img src="assets\stone.png" alt="">
+        </div>
+        <div class="choiceImg scissor" onclick="nowPlay('paper')">
+          <img src="assets\hand.png" alt="">
+        </div>
+        <div class="choiceImg paper" onclick="nowPlay('scissor')">
+          <img src="assets\scissor.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Rule -->
+    <div class="buttonsection">
+      <div class="button" id="rulebutton" onclick="closeRules()">
+        RULES
+      </div>
+      <button class="button" id='next' onclick="nextFun()">NEXT</button>
+    </div>
+
+    <div id="gamerule">
+      <h1>Game Rules</h1>
+      <ul>
+        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+        <li>
+          Agree ahead of time whether you’ll count off “rock, paper, scissors,
+          shoot” or just “rock, paper, scissors.”
+        </li>
+        <li>
+          Use rock, paper, scissors to settle minor decisions or simply play to
+          pass the time
+        </li>
+        <li>
+          If both players lay down the same hand, each player lays down another
+          hand
+        </li>
+      </ul>
+      <div id="closerules" onclick="closeRules()">X</div>
+    </div>
+
+    <!-- Choice Result -->
+    <div class="choiceresults" id="choiceresult">
+      <div class="resultshow">
+        <div class="myChoice" id="myChoice">
+          <img src="assets\stone.png" alt="" id="userChoice" />
+        </div>
+        <div class="choiceResult" id="choiceResultDetails">
+          <h1 id="ResultMsg">YOU WIN</h1>
+          <h2 id="resultPlayer">AGAINST PC</h2>
+          <button class="playAgain" onclick="playagain()">PLAY AGAIN</button>
+        </div>
+        <div class="pcChoice" id="pcChoice">
+          <img src="assets\scissor.png" alt="" id="pcChoosen" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Next Button -->
+    <div id="hurrycontainer">
+      <img src="assets\hurray_image.png" alt="trophy-image">
+      <h1>HURRAY!!</h1>
+      <h3>YOU WON THE GAME</h3>
+      <button class="playAgain" id="playAgainButton" onClick="window.location.href=window.location.href">PLAY
+        AGAIN</button>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
