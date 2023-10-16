@@ -22,7 +22,7 @@
 #### Whenever Computer Win, The UI look like this and Computer's Score will be Increase
 ![6](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/d5375ec7-db40-4761-9af5-a6206cb6d9c9)
 
-#### Whenever i Win then Next Button will showing and when click the nect button then UI look like this
+#### Whenever i Win then Next Button will showing and when click the next button then UI look like this
 ![5](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/11190269-092a-4c3e-b5d1-fec83937880b)
 
 
