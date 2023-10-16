@@ -16,15 +16,15 @@
 #### Whenever I Win, The UI look like this and My Score will be Increase
 ![3](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/af46912a-9e42-4c54-a9cf-1d7f9ae5e65c)
 
-#### Whenever Computer Win, The UI look like this and Computer's Score will be Increase
-![6](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/d5375ec7-db40-4761-9af5-a6206cb6d9c9)
-
 #### When Tie then UI will look like This and both score won't be increase
 ![4](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/f464e221-2b38-4c05-8beb-dae82437f02b)
+
+#### Whenever Computer Win, The UI look like this and Computer's Score will be Increase
+![6](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/d5375ec7-db40-4761-9af5-a6206cb6d9c9)
 
 #### Whenever i Win then Next Button will showing and when click the nect button then UI look like this
 ![5](https://github.com/ruchipratihast/cuvette-micro_project_3/assets/132348008/11190269-092a-4c3e-b5d1-fec83937880b)
 
 
-##### I stored the scores on localStorage. So even we refresh the browser the scores remains the same.
+##### NOTE:- I stored the scores on localStorage. So even we refresh the browser the scores remains the same.
 
